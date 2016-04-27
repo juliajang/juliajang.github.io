@@ -1,0 +1,166 @@
+body, html {
+	height: 100%;
+	overflow: hidden;
+	margin: 0px 0px 0px 0px;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+
+.navi {
+	width: 200px;
+	height: 100px;
+	outline: dashed;
+	outline-width: 0.5px;
+	position: fixed;
+	top: calc(100% - 98%);
+	right: calc(100% - 99%);
+	font-size: 15px;
+	z-index: 100;
+	background-color: white;
+}
+.navi-item {
+	width: 200px;
+	list-style: none;
+	padding-top: 6px;
+	text-align: center;
+	/*margin: 0 auto;*/
+	margin-left: -45px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	color: #EB98B2;
+
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	position: inline-block;
+}
+
+#home {
+	width: 700px;
+	text-align: center;
+	position: relative;
+	top: 30%;
+	margin: 0 auto;
+}
+#name {
+	color: #EB98B2;
+	padding-bottom: 40px;
+}
+
+.contact-container {
+	width: 1000px;
+	position: absolute;
+	bottom: calc(100% - 60%);
+	left: 50%;
+	margin-left: -500px;
+}
+.contact {
+	display: inline-block;
+	font-size: 10px;
+	padding: 20px;
+}
+.contact-img {
+	top: 50%;
+	width: auto;
+	max-width: 50px;
+	height: auto;
+	max-height: 50px;
+	margin-top: 0;
+}
+
+#about-me {
+	background-color: #EB98B2;
+
+}
+.header {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	outline-style: dashed;
+	outline-width: 0.5px;
+}
+.mini-header {
+	font-size: 30px;
+	color: #EB98B2;
+	margin-top: 10px;
+	text-align: center;
+}
+.info {
+	width: calc(100% - 60%);
+	height: calc(100% - 29%);
+	margin-top: 2%;
+	margin-bottom: 15%;
+	margin-left: 5%;
+	padding: 1%;
+	background-color: white;
+	display: inline-block;
+}
+.text {
+	width: 100%;
+	height: 85%;
+	margin-top: 20px;
+	font-size: 13px;
+	overflow-y: scroll;
+	overflow-x: hidden; 
+
+}
+p {
+	margin: 5px;
+}
+
+
+#gallery {
+	height: 10000px;
+}
+.mini-header2 {
+	font-size: 30px;
+	color: #EB98B2;
+	margin-left: 15px;
+}
+.row {
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	margin: auto;
+}
+.icon-img {
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+	margin: 5px;
+	display: inline-block;
+	opacity: 0.5;
+	-webkit-transition: all 0.5s;
+	background-color: gray;
+	text-align: center;
+}
+.icon-container {
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+.icon-overlay {
+	width: 100%;
+	height: 100%;
+	opacity: 50%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+.original-img {
+	max-width: 500px;
+	max-height: 500px;
+	position: absolute;
+	top: 50%;
+	margin-top: -250px;
+	left: 50%;
+	margin-left: -250px;
+	z-index: 100;
+	padding: 20px;
+}
